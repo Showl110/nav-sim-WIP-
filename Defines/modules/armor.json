@@ -1,0 +1,274 @@
+{
+    "ship_armor_bb_1": {
+      "abbreviation": "\"sde\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_thick_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.125",
+        "naval_speed": "-0",
+        "max_strength": "0.05"
+      },
+      "build_cost_resources": {
+        "steel": "1"
+      },
+      "add_stats": {
+        "armor_value": "30",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.1",
+        "naval_torpedo_damage_reduction_factor": "0.1"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "dismantle_cost_ic": "2500",
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "5500"
+      }
+    },
+    "ship_armor_bc_1": {
+      "abbreviation": "\"sdf\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.1",
+        "naval_speed": "0.1",
+        "max_strength": "0.05"
+      },
+      "add_stats": {
+        "armor_value": "20",
+        "naval_torpedo_damage_reduction_factor": "0.1"
+      },
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "4500"
+      }
+    },
+    "ship_armor_bb_2": {
+      "abbreviation": "\"sdg\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_thick_2",
+      "parent": "ship_armor_bb_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.15",
+        "naval_speed": "-0.05",
+        "max_strength": "0.1"
+      },
+      "build_cost_resources": {
+        "steel": "1"
+      },
+      "add_stats": {
+        "armor_value": "36",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.15",
+        "naval_torpedo_damage_reduction_factor": "0.15"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "6000"
+      }
+    },
+    "ship_armor_bc_2": {
+      "abbreviation": "\"sdh\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_2",
+      "parent": "ship_armor_bc_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.125",
+        "naval_speed": "0.05",
+        "max_strength": "0.1"
+      },
+      "build_cost_resources": {
+        "steel": "1"
+      },
+      "add_stats": {
+        "armor_value": "26",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.1",
+        "naval_torpedo_damage_reduction_factor": "0.15"
+      },
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "5500"
+      }
+    },
+    "ship_armor_bb_3": {
+      "abbreviation": "\"sdi\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_thick_3",
+      "parent": "ship_armor_bb_2",
+      "multiply_stats": {
+        "build_cost_ic": "0.175",
+        "naval_speed": "-0.10",
+        "max_strength": "0.15"
+      },
+      "build_cost_resources": {
+        "steel": "2",
+        "chromium": "1"
+      },
+      "add_stats": {
+        "armor_value": "40",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.2",
+        "naval_torpedo_damage_reduction_factor": "0.2"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "dismantle_cost_ic": "7500",
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "7500"
+      }
+    },
+    "ship_armor_bc_3": {
+      "abbreviation": "\"sdj\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_3",
+      "parent": "ship_armor_bc_2",
+      "multiply_stats": {
+        "build_cost_ic": "0.125",
+        "naval_speed": "-0",
+        "max_strength": "0.15"
+      },
+      "build_cost_resources": {
+        "steel": "1",
+        "chromium": "1"
+      },
+      "add_stats": {
+        "armor_value": "32",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.15",
+        "naval_torpedo_damage_reduction_factor": "0.2"
+      },
+      "dismantle_cost_ic": "6200",
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "6200"
+      }
+    },
+    "ship_armor_shbb": {
+      "abbreviation": "\"sk\"",
+      "category": "ship_heavy_armor",
+      "gfx": "ship_armor_thick_3",
+      "multiply_stats": {
+        "build_cost_ic": "0.25",
+        "naval_speed": "-0.12",
+        "max_strength": "0.1"
+      },
+      "build_cost_resources": {
+        "steel": "2",
+        "chromium": "1"
+      },
+      "add_stats": {
+        "armor_value": "55",
+        "naval_torpedo_enemy_critical_chance_factor": "-0.25",
+        "naval_torpedo_damage_reduction_factor": "0.25"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "dismantle_cost_ic": "8200",
+      "can_convert_from": {
+        "module_category": "ship_heavy_armor",
+        "convert_cost_ic": "8200"
+      }
+    },
+    "ship_armor_cruiser_1": {
+      "abbreviation": "\"sdl\"",
+      "category": "ship_cruiser_armor",
+      "gfx": "ship_armor_thin_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.1",
+        "naval_speed": "-0.05"
+      },
+      "dismantle_cost_ic": "2500",
+      "add_stats": {
+        "armor_value": "6"
+      }
+    },
+    "ship_armor_cruiser_2": {
+      "abbreviation": "\"sdm\"",
+      "category": "ship_cruiser_armor",
+      "gfx": "ship_armor_thin_2",
+      "parent": "ship_armor_cruiser_1",
+      "multiply_stats": {
+        "build_cost_ic": "0.15",
+        "naval_speed": "-0.075",
+        "max_strength": "0.05"
+      },
+      "dismantle_cost_ic": "3000",
+      "add_stats": {
+        "armor_value": "8"
+      },
+      "build_cost_resources": {
+        "steel": "1"
+      }
+    },
+    "ship_armor_cruiser_3": {
+      "abbreviation": "\"sdn\"",
+      "category": "ship_cruiser_armor",
+      "gfx": "ship_armor_thin_3",
+      "parent": "ship_armor_cruiser_2",
+      "add_equipment_type": "capital_ship",
+      "multiply_stats": {
+        "build_cost_ic": "0.2",
+        "naval_speed": "-0.1",
+        "max_strength": "0.1"
+      },
+      "dismantle_cost_ic": "3500",
+      "add_stats": {
+        "armor_value": "12"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "build_cost_resources": {
+        "steel": "1",
+        "chromium": "1"
+      }
+    },
+    "ship_armor_cruiser_4": {
+      "abbreviation": "\"sdo\"",
+      "category": "ship_cruiser_armor",
+      "gfx": "ship_armor_thin_4",
+      "parent": "ship_armor_cruiser_3",
+      "add_equipment_type": "capital_ship",
+      "multiply_stats": {
+        "build_cost_ic": "0.25",
+        "naval_speed": "-0.125",
+        "max_strength": "0.15"
+      },
+      "dismantle_cost_ic": "4000",
+      "add_stats": {
+        "armor_value": "15"
+      },
+      "add_average_stats": {
+        "surface_visibility": "5"
+      },
+      "build_cost_resources": {
+        "steel": "2",
+        "chromium": "1"
+      }
+    },
+    "ship_armor_carrier_deck": {
+      "abbreviation": "\"sdp\"",
+      "category": "ship_carrier_armor",
+      "gfx": "ship_cruiser_armor",
+      "multiply_stats": [
+        {
+          "build_cost_ic": "0.1"
+        },
+        {
+          "naval_speed": "-0.05",
+          "anti_air_attack": "1",
+          "max_strength": "0.15"
+        }
+      ],
+      "build_cost_resources": {
+        "steel": "1"
+      },
+      "add_stats": {
+        "armor_value": "5"
+      },
+      "dismantle_cost_ic": "2500"
+    }
+  }
